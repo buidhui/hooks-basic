@@ -25,7 +25,7 @@ function ColorBox() {
       style={{ backgroundColor: color }}
       onClick={handleBoxClick}
     >
-      <h2>COLOR BOX</h2>
+      <h2>Click to change Color</h2>
     </div>
   );
 }
