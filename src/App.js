@@ -11,6 +11,7 @@ import Pagination from "./components/Pagination";
 import queryString from "query-string";
 import FiltersForm from "./components/FiltersForm";
 import Clock from "./components/Clock";
+import MagicBox from "./components/MagicBox";
 
 function App() {
   const [todoList, setTodoList] = useState([
@@ -117,6 +118,8 @@ function App() {
       <h1>Clock </h1>
       {showClock && <Clock />}
       <button onClick={() => setShowClock(!showClock)}>Hide Clock</button>
+      <h1>Traffic Light</h1>
+      <MagicBox />
     </div>
   );
 }
